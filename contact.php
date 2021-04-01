@@ -5,7 +5,7 @@ $email = $_POST['email'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 
-$to = "connectshivani1337@gmail.com";
+$to = "rajshreenupur9835@gmail.com";
 $headers = "From: ".$email . "\r\n";
 
 if(mail($to,$subject,$message,$headers)){
